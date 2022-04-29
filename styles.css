@@ -1,0 +1,51 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    background: #FFFCF0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-size: 40px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: .7vw 5vw 1vw 5vw
+}
+.red {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #953232;}
+.optionspace {
+    margin-right: 4vw;
+    text-decoration: none;
+    color: black;
+}
+.homehero {
+    background-image: url("Images/placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89.9vh;
+}
+a.optionspace {
+    position: relative;
+}
+a.optionspace:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.optionspace:hover:before {
+    visibility: visible;
+    height: 3px;
+}
