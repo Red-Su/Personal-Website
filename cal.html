@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cal.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <title>Calculator</title>
+    </head>
+<body>
+    <nav>
+        <div class="menu">
+            <a class="red" href="index.html">Red Su</a>
+            <article>
+                <a class="optionspace" href="about.html">About</a>
+                <a class="optionspace" href="project.html">Projects</a>
+                <a class="optionspace" href="resume.html">Resume</a>
+                <a class="optionspace" href="contact.html">Contact</a>
+            </article>
+            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
+        </div>
+    </nav>
+    <h1>Calculator</h1>
+
+
+    <div class="calflex">
+    <form id="form">
+        <article>
+            <input type="text" class="output" id = "test">
+        </article>
+        <input type="button" value="7" onclick="number('7')">
+        <input type="button" value="8" onclick="number('8')">
+        <input type="button" value="9" onclick="number('9')">
+        <input type="button" value="+" onclick="operatorButton('+')">
+        <article>
+            <input type="button" value="4" onclick="number('4')">
+            <input type="button" value="5" onclick="number('5')">
+            <input type="button" value="6" onclick="number('6')">
+            <input type="button" value="-" onclick="operatorButton('-')">
+        </article>
+        <input type="button" value="1" onclick="number('1')">
+        <input type="button" value="2" onclick="number('2')">
+        <input type="button" value="3" onclick="number('3')">
+        <input type="button" value="&times;" onclick="operatorButton('x')">
+        <article>
+            <input class="zero" type="button" value="0" onclick="number('0')">
+            <input type="button" value="&divide;" onclick="operatorButton('/')">
+        </article>
+        <article>
+            <input class="submit" type="submit" value="Submit">
+            <input type="button" value="Restart" onclick="restart()" class="restart">
+        </article>
+    </form>
+    <article class="caltext">
+        <p>Building a calculator was my first ever project using Javascript. With my calculator you can press buttons on the screen to do calculations. It only works with two numbers and it can’t be typed</p>
+        <p>This was a challenging project since I was still very inexperienced in Javascript. I had to learn “onclick” and submit events for the code to work. Also lots of brainstorming to uniquely craft my calculator with the code in my arsenal. After finishing the interactive part, I just need to do simple CSS to make it look like a calculator.</p>
+    </article>
+    </div>
+
+    <script src="cal.js"></script>
+    <footer>
+        <nav>
+            <a href="index.html" class="red">Red Su</a>
+            <a href="about.html" class="optionfooter">About</a>
+            <a href="project.html" class="optionfooter">Projects</a>
+            <a href="contact.html" class="optionfooter">Contact</a>
+            <img src="Images/instagram.png" alt="instagram" width="75" height="75" class="optionfooter">
+        </nav>
+    </footer>
+</body>
+</html>

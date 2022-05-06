@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <title>Media Query</title>
+    </head>
+<body>
+    <nav>
+        <div class="menu">
+            <a class="red" href="index.html">Red Su</a>
+            <article>
+                <a class="optionspace" href="about.html">About</a>
+                <a class="optionspace" href="project.html">Projects</a>
+                <a class="optionspace" href="resume.html">Resume</a>
+                <a class="optionspace" href="contact.html">Contact</a>
+            </article>
+            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
+        </div>
+    </nav>
+    <h1>Media Query</h1>
+    <p class="text">Media query is a skill that I would say that all programmers should all have. It basically allows our website to work on mobile. How this works is it will detect how big the window size is. Depending on the size, style on the content will change. For example, if three images are next to each other on the desktop, on mobile we can change it to become an image carousel so all three images can be displayed on a smaller screen. </p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+        <img src="Images/finland.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+        <img src="Images/germany.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+        <img src="Images/japan.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <script src="carousel.js"></script>
+    <p class="text">Doing media queries isn’t actually that hard, however, it can be very tedious. Sometimes I would need to change every single item on a page to fit the screen and if you have a big project with lots of pages, it is a lot of work. Also making the website work on all devices, so not only mobile but also tablets. It is a lot of work, but in the programming world, it is a very useful skill to have.</p>
+    <footer>
+        <nav>
+            <a href="index.html" class="red">Red Su</a>
+            <a href="about.html" class="optionfooter">About</a>
+            <a href="project.html" class="optionfooter">Projects</a>
+            <a href="contact.html" class="optionfooter">Contact</a>
+            <img src="Images/instagram.png" alt="instagram" width="75" height="75" class="optionfooter">
+        </nav>
+    </footer>
+</body>
+</html>
