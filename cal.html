@@ -10,24 +10,34 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
         <title>Calculator</title>
+        <script src="fade.js"></script>
     </head>
-<body>
-    <nav>
-        <div class="menu">
-            <a class="red" href="index.html">Red Su</a>
-            <article>
-                <a class="optionspace" href="about.html">About</a>
-                <a class="optionspace" href="project.html">Projects</a>
-                <a class="optionspace" href="resume.html">Resume</a>
-                <a class="optionspace" href="contact.html">Contact</a>
-            </article>
-            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
-        </div>
-    </nav>
-    <h1>Calculator</h1>
+    <body onload="fade();">
+        <nav>
+            <div class="menu">
+                <a id="one" class="red" href="index.html">Red Su</a>
+                <article>
+                    <a id="two" class="optionspace" href="about.html">About</a>
+                    <div class="dropdown">
+                        <a id="three" class="dropbtn optionspace" href="project.html">Projects</a>
+                        <div class="dropdown-content">
+                          <a href="chronoshift.html">Chronoshift Expedition</a>
+                          <a href="mediaquery.html">Media Query</a>
+                          <a href="cal.html">Calculator</a>
+                          <a href="interactive.html">Interactive Story</a>
+                          <a href="creativewriting.html">Creative Writing</a>
+                        </div>
+                      </div>
+                    <a id="four" class="optionspace" href="resume.html">Resume</a>
+                    <a id="five" class="optionspace" href="contact.html">Contact</a>
+                </article>
+                <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
+            </div>
+        </nav>
+    <h1 id="seven">Calculator</h1>
 
 
-    <div class="calflex">
+    <div class="calflex" id="eight">
     <form id="form">
         <article>
             <input type="text" class="output" id = "test">
@@ -56,8 +66,8 @@
         </article>
     </form>
     <article class="caltext">
-        <p>Building a calculator was my first ever project using Javascript. With my calculator you can press buttons on the screen to do calculations. It only works with two numbers and it can’t be typed</p>
-        <p>This was a challenging project since I was still very inexperienced in Javascript. I had to learn “onclick” and submit events for the code to work. Also lots of brainstorming to uniquely craft my calculator with the code in my arsenal. After finishing the interactive part, I just need to do simple CSS to make it look like a calculator.</p>
+        <p id="nine">Building a calculator was my first ever project using Javascript. With my calculator you can press buttons on the screen to do calculations. It only works with two numbers and it can’t be typed</p>
+        <p id="ten">This was a challenging project since I was still very inexperienced in Javascript. I had to learn “onclick” and submit events for the code to work. Also lots of brainstorming to uniquely craft my calculator with the code in my arsenal. After finishing the interactive part, I just need to do simple CSS to make it look like a calculator.</p>
     </article>
     </div>
 

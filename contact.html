@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-        <a href="index.html">Red Su</a>
-        <a href="about.html">About</a>
-        <a href="project.html">Project</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-        <img src="Images/instagram.png" alt="instagram">
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <title>Contact</title>
+        <script src="fade.js"></script>
+        <script src="verification.js"></script>
+    </head>
+    <body onload="fade();">
+        <nav>
+            <div class="menu">
+                <a id="one" class="red" href="index.html">Red Su</a>
+                <article>
+                    <a id="two" class="optionspace" href="about.html">About</a>
+                    <div class="dropdown">
+                        <a id="three" class="dropbtn optionspace" href="project.html">Projects</a>
+                        <div class="dropdown-content">
+                          <a href="chronoshift.html">Chronoshift Expedition</a>
+                          <a href="mediaquery.html">Media Query</a>
+                          <a href="cal.html">Calculator</a>
+                          <a href="interactive.html">Interactive Story</a>
+                          <a href="creativewriting.html">Creative Writing</a>
+                        </div>
+                      </div>
+                    <a id="four" class="optionspace" href="resume.html">Resume</a>
+                    <a id="five" class="optionspace" href="contact.html">Contact</a>
+                </article>
+                <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
+            </div>
+        </nav>
+    <h1  id="seven">Contact</h1>
+    <p class="text" id="eight">Thank you for checking out my website. If want to contact me, my email is <a class="link" href="https://mail.google.com/mail/u/0/#inbox">red930509@gmail.com<a>. You can also message me on <a class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71">Instagram.</a></p>
+    <form id="nine">
+        <input class="contact" type="text" placeholder="First name" id="fname" id="fname">
+        <input class="contact" type="text" placeholder="Last name" id="lname">
+        <input class="contact" type="email" placeholder="Email" id="email">
+    </form>
+    <textarea id="ten" id="msg" class="contact" placeholder="Message" rows="5"></textarea>
+    <div id="errors" class="error"></div>
+    <button id="eleven" class="submitcontact" onclick="sendMail();">Submit</button>
+    <footer id="twelfth">
+        <nav>
+            <a href="index.html" class="red">Red Su</a>
+            <a href="about.html" class="optionfooter">About</a>
+            <a href="project.html" class="optionfooter">Projects</a>
+            <a href="contact.html" class="optionfooter">Contact</a>
+            <img src="Images/instagram.png" alt="instagram" width="75" height="75" class="optionfooter">
+        </nav>
+    </footer>
 </body>
 </html>

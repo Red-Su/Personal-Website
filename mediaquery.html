@@ -11,21 +11,33 @@
         <title>Media Query</title>
     </head>
 <body>
+    <script src="fade.js"></script>
+</head>
+<body onload="fade();">
     <nav>
         <div class="menu">
-            <a class="red" href="index.html">Red Su</a>
+            <a id="one" class="red" href="index.html">Red Su</a>
             <article>
-                <a class="optionspace" href="about.html">About</a>
-                <a class="optionspace" href="project.html">Projects</a>
-                <a class="optionspace" href="resume.html">Resume</a>
-                <a class="optionspace" href="contact.html">Contact</a>
+                <a id="two" class="optionspace" href="about.html">About</a>
+                <div class="dropdown">
+                    <a id="three" class="dropbtn optionspace" href="project.html">Projects</a>
+                    <div class="dropdown-content">
+                      <a href="chronoshift.html">Chronoshift Expedition</a>
+                      <a href="mediaquery.html">Media Query</a>
+                      <a href="cal.html">Calculator</a>
+                      <a href="interactive.html">Interactive Story</a>
+                      <a href="creativewriting.html">Creative Writing</a>
+                    </div>
+                  </div>
+                <a id="four" class="optionspace" href="resume.html">Resume</a>
+                <a id="five" class="optionspace" href="contact.html">Contact</a>
             </article>
-            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
+            <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
         </div>
     </nav>
-    <h1>Media Query</h1>
-    <p class="text">Media query is a skill that I would say that all programmers should all have. It basically allows our website to work on mobile. How this works is it will detect how big the window size is. Depending on the size, style on the content will change. For example, if three images are next to each other on the desktop, on mobile we can change it to become an image carousel so all three images can be displayed on a smaller screen. </p>
-    <div class="slideshow-container">
+    <h1 id="seven">Media Query</h1>
+    <p class="text" id="eight">Media query is a skill that I would say that all programmers should all have. It basically allows our website to work on mobile. How this works is it will detect how big the window size is. Depending on the size, style on the content will change. For example, if three images are next to each other on the desktop, on mobile we can change it to become an image carousel so all three images can be displayed on a smaller screen. </p>
+    <div class="slideshow-container" id="nine">
         <div class="mySlides fade">
         <img src="Images/finland.jpg" style="width:100%">
         </div>

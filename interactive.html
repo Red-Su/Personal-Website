@@ -10,24 +10,35 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
         <title>Interactive Story</title>
+        <script src="fade.js"></script>
     </head>
 <body>
-    <nav>
-        <div class="menu">
-            <a class="red" href="index.html">Red Su</a>
-            <article>
-                <a class="optionspace" href="about.html">About</a>
-                <a class="optionspace" href="project.html">Projects</a>
-                <a class="optionspace" href="resume.html">Resume</a>
-                <a class="optionspace" href="contact.html">Contact</a>
-            </article>
-            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
-        </div>
-    </nav>
-    <h1>Interactive Story</h1>
+    <body onload="fade();">
+        <nav>
+            <div class="menu">
+                <a id="one" class="red" href="index.html">Red Su</a>
+                <article>
+                    <a id="two" class="optionspace" href="about.html">About</a>
+                    <div class="dropdown">
+                        <a id="three" class="dropbtn optionspace" href="project.html">Projects</a>
+                        <div class="dropdown-content">
+                          <a href="chronoshift.html">Chronoshift Expedition</a>
+                          <a href="mediaquery.html">Media Query</a>
+                          <a href="cal.html">Calculator</a>
+                          <a href="interactive.html">Interactive Story</a>
+                          <a href="creativewriting.html">Creative Writing</a>
+                        </div>
+                      </div>
+                    <a id="four" class="optionspace" href="resume.html">Resume</a>
+                    <a id="five" class="optionspace" href="contact.html">Contact</a>
+                </article>
+                <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
+            </div>
+        </nav>
+    <h1 id="seven">Interactive Story</h1>
     <div id="items">
-        <p class="text">As you enter the Interactive Story page, you are greeted with three options, learn about the project, the process, and the challenges. Learn about the...</p>
-        <article class="buttonpos">
+        <p class="text" id="eight">As you enter the Interactive Story page, you are greeted with three options, learn about the project, the process, and the challenges. Learn about the...</p>
+        <article class="buttonpos" id="nine">
             <button onclick="start(`project`)">The Project</button>
             <button onclick="start(`process`)">The Process</button>
             <button onclick="start(`challenges`)">The Challenges</button>
@@ -35,7 +46,7 @@
     </div>
     <div class="intext" id="buttons"></div>
     <script src="interactive.js"></script>
-    <p class="inmargin">If you want to check it out, here is the link <a class="enddragon" href="https://endofdragons.netlify.app/">https://endofdragons.netlify.app/</a></p>
+    <p class="inmargin" id="ten">If you want to check it out, here is the link <a class="link" href="https://endofdragons.netlify.app/">https://endofdragons.netlify.app/</a></p>
     <footer>
         <nav>
             <a href="index.html" class="red">Red Su</a>

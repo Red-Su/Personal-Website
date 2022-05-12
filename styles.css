@@ -31,7 +31,7 @@ body {
     height: 89.9vh;
 }
 .projecthero {
-    background-image: url("Images/adobeediting.png");
+    background-image: url("Images/adobeediting.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 89.9vh;
@@ -167,7 +167,75 @@ button:hover {
 .inmargin {
     margin-top: 200px;
 }
+h2 {
+    margin-left: 10vw;
+}
+h3 {
+    margin-left: 15vw;
+}
+.resumetext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+.redtext {
+    color: #953232;
+}
+.contact {
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 40vw;
+    font-family: 'Quicksand', sans-serif;
+}
+form {
+    margin-top: 5vh;
+}
+.submitcontact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    border-radius: 0px;
+    background-color: #FFFCF0;
+    color: black;
+    border: solid;
 
+}
+.submitcontact:hover {
+    background:#eee5c4;
+}
+.message {
+    padding-bottom: 15vh;
+}
+textarea {
+    resize:none;
+}
+.error {
+    position: absolute;
+    margin-left: 30vw;
+    padding-top: 15vh;
+    font-size:25px;
+    color: red;
+}
+#one,
+#two,
+#three,
+#four,
+#five,
+#six, 
+#seven, 
+#eight, 
+#nine, 
+#ten,
+#eleven, 
+#twelfth {
+    opacity: 0;
+    transition: 1s opacity;
+} 
 a.optionspace {
     position: relative;
 }
@@ -266,3 +334,28 @@ a.optionfooter:hover:before {
   from {opacity: .4}
   to {opacity: 1}
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+} 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFCF0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-style: solid;
+} 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #eee5c4;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+} 

@@ -36,10 +36,10 @@ var progress = [``]
 function start(x) {
     window.setTimeout(removeItems, 500);
     progress = [x]
-    fade();
+    faded();
 }
 
-function fade() {
+function faded() {
     fadeOut();
 }
 
@@ -65,7 +65,7 @@ function button(text, buttonText) {
     button.innerHTML = text;
     choices.appendChild(button);
     button.addEventListener("click", function() {
-        fade();
+        faded();
         progress.push(buttonText);
     });
 }

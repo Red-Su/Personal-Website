@@ -9,25 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Projects</title>
-    <script src="javascript.js"></script>
+    <script src="fade.js"></script>
 </head>
-<body>
+<body onload="fade();">
     <nav>
         <div class="menu">
-            <a class="red" href="index.html">Red Su</a>
+            <a id="one" class="red" href="index.html">Red Su</a>
             <article>
-                <a class="optionspace" href="about.html">About</a>
-                <a class="optionspace" href="project.html">Projects</a>
-                <a class="optionspace" href="resume.html">Resume</a>
-                <a class="optionspace" href="contact.html">Contact</a>
+                <a id="two" class="optionspace" href="about.html">About</a>
+                <div class="dropdown">
+                    <a id="three" class="dropbtn optionspace" href="project.html">Projects</a>
+                    <div class="dropdown-content">
+                      <a href="chronoshift.html">Chronoshift Expedition</a>
+                      <a href="mediaquery.html">Media Query</a>
+                      <a href="cal.html">Calculator</a>
+                      <a href="interactive.html">Interactive Story</a>
+                      <a href="creativewriting.html">Creative Writing</a>
+                    </div>
+                  </div>
+                <a id="four" class="optionspace" href="resume.html">Resume</a>
+                <a id="five" class="optionspace" href="contact.html">Contact</a>
             </article>
-            <img src="Images/instagram.png" alt="instagram" width="75" height="75">
+            <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
         </div>
     </nav>
-    <div class="projecthero"></div>
+    <div id="seven" class="projecthero"></div>
     <a href="chronoshift.html">
         <p class="textimage">Chronoshift Expedition</p>
-        <img src="Images/chronoshiftproject.png" alt="chronoshift" width="1700" height="400" class="projectimg">
+        <img src="Images/chronoshiftproject.jpg" alt="chronoshift" width="1700" height="400" class="projectimg">
     </a>
     <a href="mediaquery.html">
         <p class="textimage">Media Query</p>
@@ -39,15 +48,11 @@
     </a>
     <a href="interactive.html">
         <p class="textimage">Interactive Story</p>
-        <img src="Images/interactivestory2.png" alt="interactivestory" width="1700" height="400" class="projectimg">
+        <img src="Images/interactivestory.jpg" alt="interactivestory" width="1700" height="400" class="projectimg">
     </a>
     <a href="creativewriting.html">
         <p class="textimage">Creative Writing</p>
         <img src="Images/writing.jpg" alt="writing" width="1700" height="400" class="projectimg">
-    </a>
-    <a href="building.html">
-        <p class="textimage">Building This Website</p>
-        <img src="Images/buildingthiswebsite.png" alt="website" width="1700" height="400" class="projectimg">
     </a>
     <footer>
         <nav>
