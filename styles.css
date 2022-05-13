@@ -4,7 +4,7 @@ html {
     font-size: 40px;
 }
 body {
-    margin: 0;
+    margin:  0;
     padding: 0;
 }
 .menu {
@@ -25,10 +25,25 @@ body {
     color: black;
 }
 .homehero {
-    background-image: url("Images/placeholder.png");
+    background-image: url("Images/homehero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 89.9vh;
+    box-shadow: none;
+}
+.herotext {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 27vh;
+    text-shadow: 2px 2px black;
+}
+.herocontainer {
+    position: relative;
+    text-align: center;
 }
 .projecthero {
     background-image: url("Images/adobeediting.jpg");
