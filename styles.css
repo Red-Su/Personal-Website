@@ -452,4 +452,7 @@ a.optionfooter:hover:before {
         width: 23vw;
         height: 25vh;
     }
+    footer {
+        width: 100%;
+    }
 }
