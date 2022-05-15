@@ -487,4 +487,11 @@ a.optionfooter:hover:before {
         margin-right: 20vw;
         margin-left: 20vw;
     }
+    button {
+        width: 30vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        height: 5vh;
+        font-size: 12px;
+    }
 }
