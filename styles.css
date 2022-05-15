@@ -427,8 +427,8 @@ a.optionfooter:hover:before {
         font-size: 13px;
     }
     .insta {
-        width: 47px;
-        height: 47px;
+        width: 9vw;
+        height: 5vh;
         border-radius: 0px;
     }
     .homehero {
@@ -452,10 +452,7 @@ a.optionfooter:hover:before {
         width: 23vw;
         height: 25vh;
     }
-    footer {
-        width: 100vw;
-    }
-    .optionfooter {
-        margin-left: 3vw;
+    .remove {
+        visibility: hidden;
     }
 }
