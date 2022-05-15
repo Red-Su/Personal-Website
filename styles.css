@@ -424,11 +424,11 @@ a.optionfooter:hover:before {
         font-size: 13px;
     }
     .herotext {
-        font-size: 17px;
+        font-size: 15px;
     }
     .insta {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 0px;
     }
     .homehero {
@@ -445,11 +445,11 @@ a.optionfooter:hover:before {
         height: 20vh;
     }
     .claymore {
-        width: 22vw;
+        width: 23vw;
         height: 25vh;
     }
     .vagabond {
-        width: 22vw;
+        width: 23vw;
         height: 25vh;
     }
 }
