@@ -419,3 +419,25 @@ a.optionfooter:hover:before {
         margin-top: 10vh;
     }
 }
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 15px;
+    }
+    .herotext {
+        font-size: 17px;
+    }
+    .insta {
+        width: 40px;
+        height: 40px;
+        border-radius: 0px;
+    }
+    .homehero {
+        height: 40vh;
+    }
+    .face {
+        width: 53vw;
+        height: 40vh;
+        position: relative;
+        top: -10vh;
+    }
+}
