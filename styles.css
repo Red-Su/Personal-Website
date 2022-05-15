@@ -455,15 +455,12 @@ a.optionfooter:hover:before {
         width: 23vw;
         height: 25vh;
     }
-    .remove {
-        display: none;
-    }
     .red {
         flex-grow: 0;
-        margin-right: 4vw;
+        margin-right: 2vw;
     }
-    .footer {
-        width: 100%;
+    footer {
+        display: none;
     }
     .projecthero {
         height: 40vh;
