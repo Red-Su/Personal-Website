@@ -421,7 +421,7 @@ a.optionfooter:hover:before {
 }
 @media screen and (max-width: 480px) {
     html {
-        font-size: 15px;
+        font-size: 13px;
     }
     .herotext {
         font-size: 17px;
@@ -439,5 +439,17 @@ a.optionfooter:hover:before {
         height: 40vh;
         position: relative;
         top: -10vh;
+    }
+    .berserk {
+        width: 22vw;
+        height: 20vh;
+    }
+    .claymore {
+        width: 22vw;
+        height: 25vh;
+    }
+    .vagabond {
+        width: 22vw;
+        height: 25vh;
     }
 }
