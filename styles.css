@@ -150,7 +150,7 @@ button {
     height: 4vw;
     margin-top: 200px;
     font-size: 25px;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Quicksand', sans-serif;
     border: none;
     color: white;
     background-color: rgb(75, 44, 9);
@@ -493,5 +493,11 @@ a.optionfooter:hover:before {
         margin-right: 5vw;
         height: 5vh;
         font-size: 12px;
+    }
+    .text {
+        margin-top: 5vh;
+    }
+    .contact {
+        font-size: 15px;
     }
 }
