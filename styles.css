@@ -509,4 +509,7 @@ a.optionfooter:hover:before {
     .remove {
         visibility: visible;
     }
+    .note {
+        font-size: 10px;
+    }
 }
