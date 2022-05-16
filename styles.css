@@ -430,6 +430,7 @@ a.optionfooter:hover:before {
     }
     .herotext {
         font-size: 13px;
+        padding-top: 12vh;
     }
     .insta {
         width: 45px;
