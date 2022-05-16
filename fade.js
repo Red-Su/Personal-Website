@@ -12,6 +12,7 @@ function fade() {
     window.setTimeout(fadeIn11, 1100)
     window.setTimeout(fadeIn12, 1200)
     window.setTimeout(fadeIn13, 1300)
+    window.setTimeout(fadeIn14, 1400)
 }
 function fadeIn1 () {
     document.getElementById("one").style.opacity = `1`
@@ -51,4 +52,7 @@ function fadeIn12() {
 }
 function fadeIn13() {
     document.getElementById("thirteen").style.opacity = `1`
+}
+function fadeIn14() {
+    document.getElementById("fourteenth").style.opacity = `1`
 }

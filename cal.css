@@ -67,7 +67,7 @@ form {
 }
 @media screen and (max-width: 480px) {
     input {
-        width: 8vw;
+        width: 5vw;
         height: 4vh;
     }
     .zero {
