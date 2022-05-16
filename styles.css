@@ -247,7 +247,8 @@ textarea {
 #nine, 
 #ten,
 #eleven, 
-#twelfth {
+#twelfth, 
+#thirteen {
     opacity: 0;
     transition: 1s opacity;
 } 
