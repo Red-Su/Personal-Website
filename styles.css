@@ -434,10 +434,11 @@ a.optionfooter:hover:before {
     .herotext {
         font-size: 13px;
         padding-top: 12vh;
+        text-shadow: 1px 1px black;
     }
     .insta {
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         border-radius: 0px;
     }
     .homehero {
@@ -450,15 +451,15 @@ a.optionfooter:hover:before {
         top: -10vh;
     }
     .berserk {
-        width: 22vw;
+        width: 23vw;
         height: 20vh;
     }
     .claymore {
-        width: 23vw;
+        width: 26vw;
         height: 25vh;
     }
     .vagabond {
-        width: 23vw;
+        width: 26vw;
         height: 25vh;
     }
     .red {
