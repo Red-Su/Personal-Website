@@ -66,31 +66,7 @@ form {
     }
 }
 @media screen and (max-width: 480px) {
-    input {
-        width: 8vw;
-        height: 4vh;
-    }
-    .zero {
-        height: 4vh;
-        width: 27.6vw;
-
-    }
-    .restart {
-        height: 4vh;
-        width: 18vw;
-        font-size: 20px;
-    }
-    .submit {
-        height: 4vh;
-        width: 18vw;
-        font-size: 20px;
-    }
-    .output {
-        width: 38vw;
-        font-size: 25px;
-    }
     form {
-        width: 70vw;
-        height: 30vh;
+        display: none;
     }
 }
