@@ -379,6 +379,9 @@ a.optionfooter:hover:before {
 .dropdown:hover .dropdown-content {
     display: block;
 } 
+.remove {
+    visibility: hidden;
+}
 @media screen and (max-width: 1024px) {
     html {
         font-size: 30px;
@@ -502,5 +505,8 @@ a.optionfooter:hover:before {
     }
     .contact {
         font-size: 15px;
+    }
+    .remove {
+        visibility: visible;
     }
 }
