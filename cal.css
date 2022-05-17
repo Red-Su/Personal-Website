@@ -44,3 +44,29 @@ form {
     padding-left: 45px;
     height: 10vh;
 }
+@media screen and (max-width: 1024px) {
+    input {
+        width: 10vw;
+    }
+    form {
+        width: 45.5vw;
+        height: 64.5vh;
+    }
+    .output {
+        width: 44vw;
+    }
+    .submit {
+        width: 21.5vw;
+    }
+    .restart {
+        width: 21.5vw;
+    }
+    .zero {
+        width: 32.5vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    form {
+        display: none;
+    }
+}

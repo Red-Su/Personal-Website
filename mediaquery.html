@@ -9,9 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
         <title>Media Query</title>
-    </head>
-<body>
-    <script src="fade.js"></script>
+        <script src="fade.js"></script>
 </head>
 <body onload="fade();">
     <nav>
@@ -32,20 +30,20 @@
                 <a id="four" class="optionspace" href="resume.html">Resume</a>
                 <a id="five" class="optionspace" href="contact.html">Contact</a>
             </article>
-            <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
+            <a id="six" class="link" href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img class="insta" src="Images/instagram.png" alt="instagram" width="75" height="75"></a>
         </div>
     </nav>
     <h1 id="seven">Media Query</h1>
     <p class="text" id="eight">Media query is a skill that I would say that all programmers should all have. It basically allows our website to work on mobile. How this works is it will detect how big the window size is. Depending on the size, style on the content will change. For example, if three images are next to each other on the desktop, on mobile we can change it to become an image carousel so all three images can be displayed on a smaller screen. </p>
     <div class="slideshow-container" id="nine">
         <div class="mySlides fade">
-        <img src="Images/finland.jpg" style="width:100%">
+        <img src="Images/finland.jpg" class="slide" alt="finland">
         </div>
         <div class="mySlides fade">
-        <img src="Images/germany.jpg" style="width:100%">
+        <img src="Images/germany.jpg" class="slide" alt="germany">
         </div>
         <div class="mySlides fade">
-        <img src="Images/japan.jpg" style="width:100%">
+        <img src="Images/japan.jpg"  class="slide" alt="japan">
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -59,7 +57,7 @@
             <a href="about.html" class="optionfooter">About</a>
             <a href="project.html" class="optionfooter">Projects</a>
             <a href="contact.html" class="optionfooter">Contact</a>
-            <img src="Images/instagram.png" alt="instagram" width="75" height="75" class="optionfooter">
+            <a href="https://www.instagram.com/invites/contact/?i=1fb8emqi884ot&utm_content=1yrzt71"><img src="Images/instagram.png" alt="instagram" width="75" height="75" class="optionfooter insta"></a>
         </nav>
     </footer>
 </body>
